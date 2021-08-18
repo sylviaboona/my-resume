@@ -32,6 +32,15 @@ li{
     width: 20%;
 }
 
+@media (min-width: 1400px){
+    .profile-pic{
+        padding: 1em 1em;
+        border-radius: 20rem;
+        /* display: block;  */
+        width: 80%;
+    }
+}
+
 .myname{
     padding-left: 1em;
 }
