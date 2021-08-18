@@ -92,6 +92,24 @@ li{
     }
   }
 
+  @media only screen and (max-width: 1440px) {
+    /* For mobile phones: */
+    .profile-pic, .col-8, .col-6, .col-4, .contact-text {
+      width: 100%;
+    }
+    .contact-container{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .myname{
+        padding-left: 1em;
+        margin-top: 2em;
+    }
+  }
+
 .zurilogo{
     padding-left: 2em;
     display: block;
