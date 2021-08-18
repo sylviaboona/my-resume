@@ -35,12 +35,9 @@ li{
     width: 20%;
 }
 
-@media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .profile-pic, .col-8, .col-6, .col-4, .contact-container, .contact-text {
-      width: 100%;
-    }
-  }
+
+
+
   
 .myname{
     padding-left: 1em;
@@ -75,6 +72,18 @@ li{
 .form-control{
     margin-bottom: 1em;
 }
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .profile-pic, .col-8, .col-6, .col-4, .contact-text {
+      width: 100%;
+    }
+    .contact-container{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+  }
 
 .zurilogo{
     padding-left: 2em;
