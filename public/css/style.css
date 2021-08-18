@@ -32,18 +32,9 @@ img{
     padding: 1em 1em;
     border-radius: 20rem;
     /* display: block;  */
-    /* width: 20%; */
+    width: 20%;
 }
-
-@media (min-width: 900px){
-    .profile-pic{
-        padding: 1em 1em;
-        border-radius: 20rem;
-        /* display: block;  */
-        width: 200%;
-    }
-}
-
+  
 .myname{
     padding-left: 1em;
 }
