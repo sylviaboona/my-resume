@@ -15,6 +15,7 @@ li{
     color: rgb(107, 106, 106);
 }
 
+
 .resume-container{
     margin-left: 15rem;
     margin-right: 15rem;
@@ -32,7 +33,7 @@ li{
     padding: 1em 1em;
     border-radius: 20rem;
     /* display: block;  */
-    width: 20%;
+    width: 30%;
 }
 
 
@@ -41,6 +42,7 @@ li{
   
 .myname{
     padding-left: 1em;
+    margin-top: 4em;
 }
 .contact-linebreak{
     background-color: rgb(146, 146, 223);
@@ -82,6 +84,11 @@ li{
         width: 100%;
         text-align: center;
         padding: 0;
+        margin: 0;
+    }
+    .myname{
+        padding-left: 1em;
+        margin-top: 5em;
     }
   }
 
