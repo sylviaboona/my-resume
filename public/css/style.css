@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 body{
     background-color: rgb(240, 235, 235);
     margin: 0;
@@ -24,10 +27,7 @@ li{
     margin-top: 1rem;
     display: flex;
 }
-/* img{
-    display: block;
-    max-width: 100%;
-} */
+
 .profile-pic{
     padding: 1em 1em;
     border-radius: 20rem;
@@ -35,18 +35,12 @@ li{
     width: 20%;
 }
 
-/* @media (min-width: 600px){
-    .section-item{
-        display: grid;
-        margin: 0 auto;
-        width: min-content;
-        grid-column-gap: 1em;
-        grid-template-areas: 
-        "img title"
-        "img subtitle";
-        grid-template-columns: min-content max-content;
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .profile-pic, .col-8, .col-6, .col-4, .contact-container, .contact-text {
+      width: 100%;
     }
-} */
+  }
   
 .myname{
     padding-left: 1em;
@@ -83,11 +77,7 @@ li{
 }
 
 .zurilogo{
-    padding-left: 5em;
+    padding-left: 2em;
     display: block;
-    width: 40%;
-}
-
-.contact-form{
-    padding-left: 6em;
+    width: 100%; 
 }
