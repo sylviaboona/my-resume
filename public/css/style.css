@@ -90,6 +90,11 @@ li{
         padding-left: 1em;
         margin-top: 2em;
     }
+    .zurilogo{
+        padding-left: 1em;
+        display: block;
+        width: 50%; 
+    }
   }
 
 
