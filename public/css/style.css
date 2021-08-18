@@ -24,16 +24,29 @@ li{
     margin-top: 1rem;
     display: flex;
 }
-img{
+/* img{
     display: block;
     max-width: 100%;
-}
+} */
 .profile-pic{
     padding: 1em 1em;
     border-radius: 20rem;
     /* display: block;  */
     width: 20%;
 }
+
+/* @media (min-width: 600px){
+    .section-item{
+        display: grid;
+        margin: 0 auto;
+        width: min-content;
+        grid-column-gap: 1em;
+        grid-template-areas: 
+        "img title"
+        "img subtitle";
+        grid-template-columns: min-content max-content;
+    }
+} */
   
 .myname{
     padding-left: 1em;
