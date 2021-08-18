@@ -28,21 +28,21 @@ img{
     display: block;
     max-width: 100%;
 }
-/* .profile-pic{
+.profile-pic{
     padding: 1em 1em;
     border-radius: 20rem;
     /* display: block;  */
     /* width: 20%; */
-} */
+}
 
-/* @media (min-width: 900px){
+@media (min-width: 900px){
     .profile-pic{
         padding: 1em 1em;
         border-radius: 20rem;
         /* display: block;  */
-        /* width: 20%; */
+        width: 200%;
     }
-} */
+}
 
 .myname{
     padding-left: 1em;
@@ -78,11 +78,11 @@ img{
     margin-bottom: 1em;
 }
 
-.zurilogo{
+/* .zurilogo{
     padding-left: 5em;
     display: block;
     width: 40%;
-}
+} */
 
 .contact-form{
     padding-left: 6em;
