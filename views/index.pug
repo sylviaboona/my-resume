@@ -1,0 +1,144 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Sylvia Boonabaana Resume
+  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We' crossorigin='anonymous')
+  link(rel='stylesheet' href='css/style.css')
+.resume-container
+  // Header
+  header.resume-header
+    .profile-img
+      img.profile-pic(src='img/sylvy1.jpg' alt='')
+    .myname
+      h1.fullname Sylvia Boonabaana
+      p.profession Software Developer
+  // Contact section
+  section.contacts
+    hr.contact-linebreak
+    .contact-container
+      p.contact-text sylviabooan2@gmail.com
+      p.contact-text +256789587888
+      p.contact-text Uganda
+    hr.contact-linebreak
+  // Profile Summary
+  section.profile-summary
+    .row.section-container
+      .col-8
+        h3.profile-summary-title Summary
+        p
+          | Dynamic software developer. Analytical problem solver with a talent for thinking outside the box
+          | for
+          | creative solutions. A motivational team leader highly effective at streamlining operations. I am
+          | looking
+          | forward to making a significant contribution to an institution that offers a genuine opportunity
+          | for
+      .col-4
+        h4 Other Skills
+        ul
+          li Team leadership
+          li Analytic Problem Solving
+          li Critical Thinking
+          li Agile Project Management
+          li Community Engagement in problem solvingL
+  // Work Experience
+  section.work-experience
+    .row.section-container
+      .col-8
+        h3.section-title Work Experience
+        .section-item
+          h6 Refactory Uganda, Software Engineering Intern, January 2021 &ndash; July 2021
+          ul
+            li
+              | Development of a mobile application for financial management using the PERN stack
+            li
+              | Participated in user research to determine which features to include in, or exclude from
+              | the app.
+            li
+              | Mockup design. This was useful for getting feedback from the client
+              | and potential users on the user interface and user process flow.
+            li
+              | Took on the role of Scrum Master (Project Manager). Made correspondences between the
+              | client and the team. Ensured the team had all necessary resources to ensure the project
+              | progressed successfully.
+        .section-item
+          h6
+            | Deliverance Church, Administrative Officer,
+            | January 2013 &ndash; December 2019
+          ul
+            li
+              | Successfully led a team of 80 people fully utilizing deployment and delegation skills.
+              | Streamlined processes to maximize operational efficiency.
+            li
+              | Assisted management in decision-making procedures by creating monthly. reports to advise
+              | on corrective actions, process improvements and strategic operational planning.
+            li Oversaw budget, tracked expenses against plans.
+            li
+              | Established positive working relationships with colleagues, managers and clients through
+              | regular communication and effective anticipation of needs.
+        .section-item
+          h6 iLabs@MAK Project, Developer, June 2010 &ndash; May 2012
+          ul
+            li
+              | Development of internet laboratories. These would help every student
+              | individually perform a lab experiment instead of the group experiments with limited
+              | equipment. This was made possible through performing the experiments simulated on a
+              | computer.
+            li
+              | Developed a project to integrate the National Instruments&rsquo; EMONA FOTEx Board interface
+              | into the Batched iLabs Client, together with my project partner. A paper was published
+              | to this effect, find details 
+              a(href='https://ieeexplore.ieee.org/document/6396456') here
+            li
+              | Was selected to represent my team at the Massachusetts Institute of Technology annual
+              | iLabs Workshop.
+      .col-4
+        h4 Technical Skills
+        ul
+          li HTML/CSS/JavaScript
+          li ReactJS
+          li Express/Node JS
+          li Django
+          li MongoDB/PostgreSQL
+          li Version Control (Git and GitHub/GitLab)
+          br
+          br
+          br
+        h4 Other Skills
+        ul
+          li Team leadership
+          li Analytic Problem Solving
+          li Critical Thinking
+          li Agile Project Management
+          li Community Engagement in problem solving
+  // Education
+  section.education
+    .row.section-container
+      .col-8
+        h3.section-title Education
+        .section-item
+          h6
+            | Refactory Uganda, Clarke International University, September &ndash; December 2020
+          p
+            | Catalyst Course in Software Development and Project Management
+        .section-item
+          h6 Makerere University, 2008 &ndash; 2012
+          p BSc. Telecommunications Engineering
+      .col-4
+        h4 Languages
+        ul
+          li English
+          li Kiswahili
+  // Contact Form
+  hr
+  section.contact-form
+    .row.section-container
+      h6 Further Inquiries
+      .col-6
+        form(action='/contactMe' method='POST')
+          input.form-control(type='text' name='email' placeholder='Email')
+          input.form-control(type='text' name='question' placeholder='Question')
+          input.form-control.btn-secondary(type='submit' value='Submit')
+      .col-6
+        img(src="img/zurilogo1.jpg", alt="", class="zurilogo")
